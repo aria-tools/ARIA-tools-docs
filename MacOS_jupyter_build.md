@@ -8,7 +8,8 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 
 1. [MacPorts](#macports)
 2. [PIP Jupyter notebook extensions ](#pip-jupyter-notebook-extensions)
-3. [Return to back to ARIA-tools-docs page](https://github.com/dbekaert/ARIA-tools-docs)
+3. [Anaconda/Miniconda]
+4. [Return to back to ARIA-tools-docs page](https://github.com/dbekaert/ARIA-tools-docs)
 
 
 ------
@@ -51,6 +52,16 @@ RISE plugin to turn notebooks into slideshow
 sudo pip-3.X install RISE
 sudo jupyter-nbextension-3.X install rise --py --sys-prefix
 ```
+
+## Anaconda/Miniconda jupyter
+
+Instructions to install jupyter notebooks in a conda environment
+
+```
+conda install jupyterlab --yes
+```
+
+Conda will install all required jupyter packages.
 
 ------
 ## [Return to back to ARIA-tools-docs page](https://github.com/dbekaert/ARIA-tools-docs)
