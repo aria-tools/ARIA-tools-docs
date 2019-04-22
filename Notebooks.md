@@ -23,7 +23,7 @@ This notebook is intended to test and demonstrate gdal operations in a Python en
 
 This notebook is intended to handle conversion of ARIA products to different formats such as ENVI, Geotiff etc. Two functions are given to handle the process.
 REQUIRES CONTROL WITH GIS
-+ [GDAL pythonic] (https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_pythonic.ipynb)
++ [GDAL pythonic](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_pythonic.ipynb)
 
 
 ### Template
