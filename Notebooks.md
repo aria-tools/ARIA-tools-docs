@@ -18,8 +18,12 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 ### Jupyter Notebooks
 
 ### GDAL commandline and python GUNW manipulation 
-SHORT DESCRIPTION of the notebook and what it does.
-+ [Notebook](link to the notebook)
+This notebook is intended to test and demonstrate gdal operations in a Python environment. In this notebook, basic operations such as retrieving and handling the data and metadata of ARIA-products are shown. The examples given include; reading an ARIA product with GDAL and obtaining metadata, reading the unwrapped phase from the file and creating a plot, cropping the data and generating KMZ files.
++ [GDAL basics](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics.ipynb)
+
+This notebook is intended to handle conversion of ARIA products to different formats such as ENVI, Geotiff etc. Two functions are given to handle the process.
+REQUIRES CONTROL WITH GIS
++ [GDAL pythonic] (https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_pythonic.ipynb)
 
 
 ### Template
