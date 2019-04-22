@@ -58,7 +58,7 @@ sudo jupyter-nbextension-3.X install rise --py --sys-prefix
 Instructions to install jupyter notebooks in a conda environment
 
 ```
-conda install jupyterlab --yes
+conda install -c conda-forge jupyterlab --yes
 ```
 
 Conda will install all required jupyter packages.
