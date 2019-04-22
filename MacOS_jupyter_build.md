@@ -8,7 +8,7 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 
 1. [MacPorts](#macports)
 2. [PIP Jupyter notebook extensions ](#pip-jupyter-notebook-extensions)
-3. [Anaconda/Miniconda]
+3. [Anaconda/Miniconda](#anaconda/miniconda-jupyter)
 4. [Return to back to ARIA-tools-docs page](https://github.com/dbekaert/ARIA-tools-docs)
 
 
