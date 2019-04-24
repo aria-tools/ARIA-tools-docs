@@ -1,5 +1,5 @@
 # Linux
-Here we provide guidelines on how to get Jupyter notebooks runnign on **Linux** machines. For **MacOS** see the respective installation instructions. 
+Here we provide guidelines on how to get Jupyter notebooks running on **Linux** machines. For **MacOS** see the respective installation instructions. 
 
 
 THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS. USE AT YOUR OWN RISK.
