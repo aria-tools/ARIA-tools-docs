@@ -13,7 +13,8 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 
 1. [Download](#download)
 2. [Software Dependencies](#software-dependencies)
-   - [Installing python dependencies on mac with Macports](#installing-python-dependencies-on-mac-with-macports)
+   - [Installing python dependencies on mac with Macports](#installing-python-dependencies-on-mac-with-macports) 
+   - [Installing python dependencies on linux with Anaconda](#installing-python-dependencies-on-linux-with-anaconda)   
 3. [Installation](#installation)
 4. [Documentation](#documentation)
 5. [Citation](#citation)
@@ -51,6 +52,8 @@ See ARIA-tools on step-by-step guide on installation.
 
 
 ### [Installing python dependencies on mac with Macports](https://github.com/dbekaert/ARIA-tools-docs/blob/master/MacOS_jupyter_build.md)
+### [Installing python dependencies on linux with Anaconda](https://github.com/dbekaert/ARIA-tools-docs/blob/master/Linux_jupyter_build.md)
+
 
 ------
 ## Installation
