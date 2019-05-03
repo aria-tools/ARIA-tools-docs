@@ -62,7 +62,6 @@ After downloading the ARIA-tools-docs repository and installation of the depende
 ------
 ## Documentation
 + [Jupyter Notebook Tutorials](https://github.com/dbekaert/ARIA-tools-docs/tree/master/Notebooks.md)
-+ [Overview of ARIA-tool modules](https://github.com/dbekaert/ARIA-tools-docs/tree/master/Modules.md)           
 
 ------
 ## Citation
