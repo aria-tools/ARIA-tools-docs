@@ -13,8 +13,8 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 2. [Jupyter Notebooks](#jupyter-notebooks)
    - [GUNW command line download API - productAPI program](#gunw-command-line-download-api---productapi-program)
    - [GDAL command line and python GUNW manipulation](#gdal-command-line-and-python-gunw-manipulation)
-   - [Extracting data from GUNW products - extractProduct program](#extracting-data-from-gunw-products---extractproduct-program)
-   - [Assessing data quality of GUNW products - productPlot program](#assessing-data-quality-of-gunw-products---productplot-program)
+   - [Extracting data from GUNW products - extractProduct program tutorial](#extracting-data-from-gunw-products---extractproduct-program-tutorial)
+   - [Assessing data quality of GUNW products - productPlot program tutorial](#assessing-data-quality-of-gunw-products---productplot-program-tutorial)
    - [Template](#template)
 3. [Citation](#citation)
 4. [Contributors and community contributions](#contributors)
@@ -48,13 +48,13 @@ This notebook demonstrates how to download GUNW products from ASF using the comm
 This notebook demonstrates how GDAL command line and Python functionality can be used to manipulate GUNW products. The examples include: reading of data and meta-data contained in GUNW products, deriving statistics from the data, reading the datasets and creating a map plot, and lastly, generation of KMZ files.
 + [GDAL basics](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics/GDAL_basics.ipynb)
 
-### Extracting data from GUNW products - extractProduct program
-SHORT DESCRIPTION of the notebook and what it does.
-+ [Notebook](link to the notebook)
+### Extracting data from GUNW products - extractProduct program tutorial
+This notebook documents the methodology used for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping. 
++ [extractProduct](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/extractProduct/extractProduct_tutorial.ipynb)
 
-### Assessing data quality of GUNW products - productPlot program
-SHORT DESCRIPTION of the notebook and what it does.
-+ [Notebook](link to the notebook)
+### Assessing data quality of GUNW products - productPlot program tutorial
+This notebook is intended to demonstrate the capabilities of productPlot tool. The notebook gives examples on how to produce qualitative and coverage plots of GUNW products using terminal commands. The qualitative plots cover perpendicular baseline and coherence plots which can be plotted seperately or combined with different graph options (network or histogram plots). Coverage plots show the latitude extends of the GUNW products and their overlap.
++ [productPlot](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/productPlot/productPlot_tutorial.ipynb)
 
 ### Template
 SHORT DESCRIPTION of the notebook and what it does.
