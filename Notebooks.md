@@ -25,6 +25,11 @@ This notebook demonstrates how GDAL command line and Python functionality can be
 This notebook documents the methodology used for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping. 
 + [extractProduct](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/extractProduct/extractProduct_tutorial.ipynb)
 
+
+### productPlot Tutorial
+This notebook is intended to demonstrate the capabilities of productPlot tool. The notebook gives examples on how to produce qualitative and coverage plots of GUNW products using terminal commands. The qualitative plots cover perpendicular baseline and coherence plots which can be plotted seperately or combined with different graph options (network or histogram plots). Coverage plots show the latitude extends of the GUNW products and their overlap.
++ [productPlot](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/productPlot/productPlot_tutorial.ipynb)
+
 ### Template
 SHORT DESCRIPTION of the notebook and what it does.
 + [Notebook](link to the notebook)
