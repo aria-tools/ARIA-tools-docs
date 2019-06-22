@@ -19,7 +19,7 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 3. [Citation](#citation)
 4. [Contributors and community contributions](#contributors)
 
-Click here to go to the [ARIA-tools page](https://github.com/dbekaert/ARIA-tools-docs).
+Click here to go to the [ARIA-tools page](https://github.com/dbekaert/ARIA-tools).
 
 ------
 ## Software Dependencies and Installation
