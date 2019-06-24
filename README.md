@@ -11,7 +11,7 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 ## Contents
 1. [Software Dependencies and Installation](#software-dependencies-and-installation)  
 2. [Jupyter Notebooks](#jupyter-notebooks)
-   - [GUNW command line download API - productAPI program](#gunw-command-line-download-api---productapi-program)
+   - [GUNW command line download API - ariaDownload program](#gunw-command-line-download-api---ariaDownload-program)
    - [GDAL command line and python GUNW manipulation](#gdal-command-line-and-python-gunw-manipulation)
    - [Extracting data from GUNW products - extractProduct program tutorial](#extracting-data-from-gunw-products---extractproduct-program-tutorial)
    - [Assessing data quality of GUNW products - productPlot program tutorial](#assessing-data-quality-of-gunw-products---productplot-program-tutorial)
@@ -40,9 +40,9 @@ After downloading the ARIA-tools-docs repository and installation of the depende
 ------
 ## Jupyter Notebooks
 
-### GUNW command line download API - productAPI program
-This notebook demonstrates how to download GUNW products from ASF using the command line *productAPI.py* program, which wraps around the ASF DAAC API.
-+ [productAPI](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/productAPI/productAPI_tutorial.ipynb)
+### GUNW command line download API - ariaDownload program
+This notebook demonstrates how to download GUNW products from ASF using the command line *ariaDownload.py* program, which wraps around the ASF DAAC API.
++ [ariaDownload](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/ariaDownload/ariaDownload_tutorial.ipynb)
 
 ### GDAL command line and python GUNW manipulation
 This notebook demonstrates how GDAL command line and Python functionality can be used to manipulate GUNW products. The examples include: reading of data and meta-data contained in GUNW products, deriving statistics from the data, reading the datasets and creating a map plot, and lastly, generation of KMZ files.
