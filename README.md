@@ -48,7 +48,7 @@ This notebook demonstrates how to download GUNW products from ASF using the comm
 This notebook demonstrates how GDAL command line and Python functionality can be used to manipulate GUNW products. The examples include: reading of data and meta-data contained in GUNW products, deriving statistics from the data, reading the datasets and creating a map plot, and lastly, generation of KMZ files.
 + [GDAL basics](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics/GDAL_basics.ipynb)
 
-### Extracting data from GUNW products - extractProduct program tutorial
+### Extracting data from GUNW products - ariaExtract program tutorial
 This notebook documents the methodology used for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping.
 + [ariaExtract](https://github.com/dbekaert/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
 
