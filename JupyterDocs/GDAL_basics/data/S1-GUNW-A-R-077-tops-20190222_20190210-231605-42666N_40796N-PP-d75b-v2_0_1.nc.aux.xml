@@ -1,0 +1,14 @@
+<PAMDataset>
+  <Subdataset name="/science/grids/data/unwrappedPhase">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">20.177978515625</MDI>
+          <MDI key="STATISTICS_MEAN">-6.7323266167189</MDI>
+          <MDI key="STATISTICS_MINIMUM">-35.408046722412</MDI>
+          <MDI key="STATISTICS_STDDEV">4.2689717955368</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
