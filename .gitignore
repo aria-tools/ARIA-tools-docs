@@ -4,10 +4,11 @@
 *.DS_Store
 __pycache__
 .ipynb_checkpoints
-./JupyterDocs/*/results/*
-./JupyterDocs/*/products/*
-./JupyterDocs/*/figures/*
-./JupyterDocs/*/productBoundingBox/*
+JupyterDocs/*/results/*
+JupyterDocs/*/products/*
+JupyterDocs/*/figures/*
+JupyterDocs/*/productBoundingBox/*
+JupyterDocs/*/*.kmz
 figures
 results
 productBoundingBox
