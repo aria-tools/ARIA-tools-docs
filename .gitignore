@@ -9,6 +9,15 @@ JupyterDocs/*/products/*
 JupyterDocs/*/figures/*
 JupyterDocs/*/productBoundingBox/*
 JupyterDocs/*/*.kmz
+JupyterDocs/*/DEM/
+JupyterDocs/*/amplitude
+JupyterDocs/*/azimuthAngle
+JupyterDocs/*/coherence
+JupyterDocs/*/connectedComponents
+JupyterDocs/*/incidenceAngle
+JupyterDocs/*/mask
+JupyterDocs/*/unwrappedPhase
+JupyterDocs/*/user_bbox.shp
 figures
 results
 productBoundingBox
