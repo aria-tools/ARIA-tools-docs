@@ -6,4 +6,9 @@ __pycache__
 .ipynb_checkpoints
 ./JupyterDocs/*/results/*
 ./JupyterDocs/*/products/*
+./JupyterDocs/*/figures/*
+./JupyterDocs/*/productBoundingBox/*
+figures
+results
+productBoundingBox
 products
