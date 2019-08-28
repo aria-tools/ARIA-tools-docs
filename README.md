@@ -16,6 +16,7 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
    - [Manipulating Layers of ARIA standard GUNW products - ariaExtract program tutorial](#manipulating-layers-of-aria-standard-gunw-products---ariaExtract-program-tutorial)
    - [Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot program tutorial](#assessing-data-quality-of-gunw-products---ariaPlot-program-tutorial)
    - [Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial](#preparing-aria-standard-gunw-products-layers-for-time-series-analysis-using-ariaTSsetup.py---ariaTSsetup.py-program-tutorial)
+    - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](#external--time-series-insar-processing-using-the-miami-insar-time-series-software-in-python-tutorial)    
 3. [Citation](#citation)
 4. [Contributors and community contributions](#contributors)
 
@@ -59,6 +60,12 @@ This notebook is intended to demonstrate the capabilities of the "ariaPlot.py" p
 ### Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial
 This notebook provides an overview of the functionality of the "ariaTSsetup.py" program. Specifically, we give examples on how to extract data and meta-data layers from ARIA Geocoded UNWrapped interferogram (GUNW) products over a user defined area of interest and prepare the data into a stack for time-series ingestion.
 + [ariaTSsetup](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
+
+### External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial
+This is an **external** notebook included in the [MintPy](https://github.com/insarlab/MintPy) package. This notebook takes outputs from ARIA-tools as input for time-series analysis with an example over San Francisco. Notebook contribution by @hfattahi and @yunjunz.
++ [smallbaselineApp_aria](https://nbviewer.jupyter.org/github/insarlab/MintPy/blob/master/docs/tutorials/smallbaselineApp_aria.ipynb)
+
+
 
 
 ------
