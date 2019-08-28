@@ -42,23 +42,23 @@ After downloading the ARIA-tools-docs repository and installation of the depende
 
 ### Manipulating GUNW products using GDAL (python and commandline) - GDAL basics tutorial
 This notebook demonstrates how GDAL command line and Python functionality can be used to manipulate GUNW products. The examples include: reading of data and meta-data contained in GUNW products, deriving statistics from the data, reading the datasets and creating a map plot, and lastly, generation of KMZ files.
-+ [GDAL basics](https://github.com/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics/GDAL_basics.ipynb)
++ [GDAL basics](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics/GDAL_basics.ipynb)
 
 ### Downloading GUNW products using ariaDownload.py - ariaDownload program tutorial
 This notebook demonstrates how to download GUNW products from ASF using the *ariaDownload.py* program, which wraps around the ASF DAAC API.
-+ [ariaDownload](https://github.com/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaDownload/ariaDownload_tutorial.ipynb)
++ [ariaDownload](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaDownload/ariaDownload_tutorial.ipynb)
 
 ### Manipulating Layers of ARIA standard GUNW products - ariaExtract program tutorial
 This notebook documents the methodology employed by the "ariaExtract.py" program for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping.
-+ [ariaExtract](https://github.com/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
++ [ariaExtract](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
 
 ### Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot program tutorial
 This notebook is intended to demonstrate the capabilities of the "ariaPlot.py" program. The notebook gives examples on how to produce qualitative and coverage plots of GUNW products using terminal commands. The qualitative plots cover perpendicular baseline and coherence plots which can be plotted seperately or combined with different graph options (network or histogram plots). Coverage plots show the latitude extents of the GUNW products and their overlap.
-+ [ariaPlot](https://github.com/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaPlot/ariaPlot_tutorial.ipynb)
++ [ariaPlot](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaPlot/ariaPlot_tutorial.ipynb)
 
 ### Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial
 This notebook provides an overview of the functionality of the "ariaTSsetup.py" program. Specifically, we give examples on how to extract data and meta-data layers from ARIA Geocoded UNWrapped interferogram (GUNW) products over a user defined area of interest and prepare the data into a stack for time-series ingestion.
-+ [ariaTSsetup](https://github.com/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
++ [ariaTSsetup](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
 
 
 ------
