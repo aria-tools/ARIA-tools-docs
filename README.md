@@ -63,7 +63,7 @@ This notebook provides an overview of the functionality of the "ariaTSsetup.py" 
 
 ### External - Time series InSAR processing using the Miami INsar Time-series software in PYthon tutorial
 This is an **external** notebook included in the [MintPy](https://github.com/insarlab/MintPy) package. This notebook takes outputs from ARIA-tools as input for time-series analysis with an example over San Francisco. Notebook contribution by @hfattahi and @yunjunz.
-+ [smallbaselineApp_aria](https://nbviewer.jupyter.org/github/insarlab/MintPy/blob/master/docs/tutorials/smallbaselineApp_aria.ipynb)
++ [smallbaselineApp_aria](https://nbviewer.jupyter.org/github/insarlab/MintPy-tutorial/blob/master/smallbaselineApp_aria.ipynb)
 
 
 
