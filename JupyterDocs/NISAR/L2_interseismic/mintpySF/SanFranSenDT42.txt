@@ -1,0 +1,11 @@
+mintpy.reference.yx            = 490,630
+mintpy.network.coherenceBased    = no
+mintpy.networkInversion.weightFunc                       = no
+mintpy.topographicResidual.pixelwiseGeometry    = no
+mintpy.troposphericDelay.method = no
+mintpy.deramp          = no
+mintpy.topographicResidual                   = no
+
+mintpy.network.excludeDate     = 20160107  #[20080520,20090817 / no], auto for no
+mintpy.network.excludeIfgIndex = 25, 30, 34, 40, 46, 52, 56, 57, 61, 62, 67, 70, 74, 80
+mintpy.network.keepMinSpanTree = yes
