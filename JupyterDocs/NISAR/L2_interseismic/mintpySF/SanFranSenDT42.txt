@@ -28,3 +28,7 @@ mintpy.network.tempBaseMax     = auto  #[1-inf, no], auto for no, maximum tempor
 mintpy.network.perpBaseMax     = auto  #[1-inf, no], auto for no, maximum perpendicular spatial baseline in meter
 mintpy.network.startDate       = auto  #[20090101 / no], auto for no
 mintpy.network.endDate         = auto  #[20110101 / no], auto for no
+
+
+# do not modify
+mintpy.troposphericDelay.method = no 
