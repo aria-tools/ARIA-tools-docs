@@ -11,12 +11,12 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
 ## Contents
 1. [Software Dependencies and Installation](#software-dependencies-and-installation)
 2. [Jupyter Notebooks](#jupyter-notebooks)
-   - [Downloading GUNW products using ariaDownload.py - ariaDownload program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaDownload/ariaDownload_tutorial.ipynb)
-   - [Manipulating GUNW products using GDAL (python and commandline) - GDAL basics tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/GDAL_basics/GDAL_basics.ipynb)
-   - [Manipulating Layers of ARIA standard GUNW products - ariaExtract.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
-   - [Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaPlot/ariaPlot_tutorial.ipynb)
-   - [Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
-    - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](https://github.com/insarlab/MintPy)    
+   - [Downloading GUNW products using ariaDownload.py - ariaDownload program tutorial](#downloading-gunw-products-using-ariadownload.py---ariadownload-program-tutorial)
+   - [Manipulating GUNW products using GDAL (python and commandline) - GDAL basics tutorial](#manipulating-gunw-products-using-gdal-(python-and-commandline)---gdal-basics-tutorial)
+   - [Manipulating Layers of ARIA standard GUNW products - ariaExtract.py program tutorial](#manipulating-layers-of-aria-standard-gunw-products---ariaextract.py-program-tutorial)
+   - [Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot.py program tutorial](#assessing-data-quality-and-spatiotemporal-coverage-of-interferograms---ariaplot.py-program-tutorial])
+   - [Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial](#preparing-aria-standard-gunw-products-layers-for-time-series-analysis-using-ariatssetup.py---ariatssetup.py-program-tutorial)
+    - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](#external---time-series-insar-processing-using-the-miami-insar-time-series-software-in-python-tutorial)
 3. [Citation](#citation)
 4. [Contributors and community contributions](#contributors)
 
@@ -53,6 +53,10 @@ This notebook demonstrates how GDAL command line and Python functionality can be
 This notebook documents the methodology employed by the "ariaExtract.py" program for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping.
 + [ariaExtract](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
 
+### Defining a new study area of interest - ariaAOIassist.py program tutorial
+This notebook provides an example of how to design a processing strategy and format area of interest (AOI) for creating new ARIA products. It showcases the "ariaAOIassist.py" tool for spatially and temporally defining AOIs.
++ [ariaAOIassist](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaAOIassist/ariaAOIassist_tutorial.ipynb)
+
 ### Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot.py program tutorial
 This notebook is intended to demonstrate the capabilities of the "ariaPlot.py" program. The notebook gives examples on how to produce qualitative and coverage plots of GUNW products using terminal commands. The qualitative plots cover perpendicular baseline and coherence plots which can be plotted seperately or combined with different graph options (network or histogram plots). Coverage plots show the latitude extents of the GUNW products and their overlap.
 + [ariaPlot](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaPlot/ariaPlot_tutorial.ipynb)
@@ -60,6 +64,10 @@ This notebook is intended to demonstrate the capabilities of the "ariaPlot.py" p
 ### Preparing ARIA standard GUNW products layers for time series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial
 This notebook provides an overview of the functionality of the "ariaTSsetup.py" program. Specifically, we give examples on how to extract data and meta-data layers from ARIA Geocoded UNWrapped interferogram (GUNW) products over a user defined area of interest and prepare the data into a stack for time-series ingestion.
 + [ariaTSsetup](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
+
+### Assessing phase triplet misclosure - ariaMisclosure.py program tutorial
+This notebook demonstrates the "ariaMisclosure.py" tool for determining phase triplet misclosure. It begins with a brief overview of the concept of phase misclosure. It then demonstrates dynamic uses of the tool for formulating phase triplets and visualizing the results.
++ [ariaMisclosure](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaMisclosure/ariaMisclosure_tutorial.ipynb)
 
 ### External - Time series InSAR processing using the Miami INsar Time-series software in PYthon tutorial
 This is an **external** notebook included in the [MintPy](https://github.com/insarlab/MintPy) package. This notebook takes outputs from ARIA-tools as input for time-series analysis with an example over San Francisco. Notebook contribution by @hfattahi and @yunjunz.
@@ -73,11 +81,12 @@ This is an **external** notebook included in the [MintPy](https://github.com/ins
 Please cite the original reference as provided in the [ARIA-tools repo](https://github.com/aria-tools/ARIA-tools).
 
 ------
-## Contributors    
+## Contributors
 * David Bekaert
 * Simran Sangha
 * Emre Havazli
 * Brett Buzzanga
+* Robert Zinke
 * [_other community members_](https://github.com/aria-tools/ARIA-tools-docs/graphs/contributors)
 
 We welcome community contributions. For instructions see [here](https://github.com/aria-tools/ARIA-tools/blob/master/CONTRIBUTING.md)
