@@ -18,6 +18,7 @@ JupyterDocs/*/incidenceAngle
 JupyterDocs/*/mask
 JupyterDocs/*/unwrappedPhase
 JupyterDocs/*/user_bbox.shp
+JupyterDocs/*/user_bbox.json
 figures
 results
 productBoundingBox
