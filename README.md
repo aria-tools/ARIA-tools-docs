@@ -16,8 +16,8 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
    - [Manipulating Layers of ARIA standard GUNW products - ariaExtract.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
    - [Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaPlot/ariaPlot_tutorial.ipynb)
    - [Preparing ARIA standard GUNW products layers for time-series analysis using ariaTSsetup.py - ariaTSsetup.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaTSsetup/ariaTSsetup_tutorial.ipynb)
-   - [Creating a new area of interest](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaAOIassist/ariaAOIassist_tutorial.ipynb)
-   - [Calculating phase triplet misclosures](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaMisclosure/ariaMisclosure_tutorial.ipynb)
+   - [Creating a new area of interest - ariaAOIassist.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaAOIassist/ariaAOIassist_tutorial.ipynb)
+   - [Calculating phase triplet misclosures - ariaMisclosure.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaMisclosure/ariaMisclosure_tutorial.ipynb)
    - [InSAR Time Series Analysis using MintPy and ARIA products](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/NISAR/L2_interseismic/mintpySF/smallbaselineApp_aria.ipynb)
    - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](https://github.com/insarlab/MintPy)
 3. [Citation](#citation)
@@ -55,6 +55,10 @@ This notebook demonstrates how GDAL command line and Python functionality can be
 ### Manipulating Layers of ARIA standard GUNW products - ariaExtract.py program tutorial
 This notebook documents the methodology employed by the "ariaExtract.py" program for extracting data and metadata layers of ARIA Geocoded UNWrapped interferogram (GUNW) products. It provides command-line and python examples that include cropping, stitching, data extraction, water masking, LOS to ENU conversion, and deformation mapping.
 + [ariaExtract](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaExtract/ariaExtract_tutorial.ipynb)
+
+### Defining a new study area of interest - ariaAOIassist.py program tutorial
+This notebook provides an example of how to design a processing strategy and format area of interest (AOI) for creating new ARIA products. It showcases the "ariaAOIassist.py" tool for spatially and temporally defining AOIs.
++ [ariaAOIassist](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaAOIassist/ariaAOIassist_tutorial.ipynb)
 
 ### Assessing data quality and spatiotemporal coverage of interferograms - ariaPlot.py program tutorial
 This notebook is intended to demonstrate the capabilities of the "ariaPlot.py" program. The notebook gives examples on how to produce qualitative and coverage plots of GUNW products using terminal commands. The qualitative plots cover perpendicular baseline and coherence plots which can be plotted seperately or combined with different graph options (network or histogram plots). Coverage plots show the latitude extents of the GUNW products and their overlap.
