@@ -1,0 +1,47 @@
+# create environment : conda env create -f ariaMintpy_env.yml
+# update dependencies: conda env update -f ariaMintpy_env.yml
+# remove environment : conda env remove -n ariaMintpy
+# enter  environment : conda activate ariaMintpy
+# exit   environment : conda deactivate
+name: ariaMintpy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.6
+  - cartopy
+  - cdsapi
+  - cvxopt
+  - dask>=1.0
+  - dask-jobqueue>=0.3
+  - defusedxml
+  - ecCodes
+  - gdal>=3.0
+  - hdf5
+  - h5py
+  - joblib
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - libgdal
+  - lxml
+  - matplotlib
+  - netcdf4
+  - numpy
+  - openmp
+  - pandas
+  - pip
+  - pygrib
+  - pyhdf
+  - pykdtree
+  - pyproj
+  - pyqt
+  - pyresample
+  - requests
+  - rise
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - shapely
+  - pip:
+    - git+https://github.com/tylere/pykml.git
+    - h5py
