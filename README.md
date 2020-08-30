@@ -19,7 +19,7 @@ THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS.
    - [Calculating phase triplet misclosures - ariaMisclosure.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaMisclosure/ariaMisclosure_tutorial.ipynb)
    - [Creating a new area of interest - ariaAOIassist.py program tutorial](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/ariaAOIassist/ariaAOIassist_tutorial.ipynb)
    - [InSAR Time Series Analysis using MintPy and ARIA products](https://nbviewer.jupyter.org/github/aria-tools/ARIA-tools-docs/blob/master/JupyterDocs/NISAR/L2_interseismic/mintpySF/smallbaselineApp_aria.ipynb)
-   - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](https://github.com/insarlab/MintPy)
+   - [External - Time-series InSAR processing using the Miami INsar Time-series software in PYthon tutorial](https://github.com/insarlab/MintPy-tutorial)
 3. [Citation](#citation)
 4. [Contributors and community contributions](#contributors)
 
@@ -74,7 +74,7 @@ This notebook provides an example of how to design a processing strategy and for
 
 ### External - Time series InSAR processing using the Miami INsar Time-series software in PYthon tutorial
 This is an **external** notebook included in the [MintPy](https://github.com/insarlab/MintPy) package. This notebook takes outputs from ARIA-tools as input for time-series analysis with an example over San Francisco. Notebook contribution by @hfattahi and @yunjunz.
-+ [smallbaselineApp_aria](https://nbviewer.jupyter.org/github/insarlab/MintPy-tutorial/blob/master/smallbaselineApp_aria.ipynb)
++ [smallbaselineApp_aria](https://nbviewer.jupyter.org/github/insarlab/MintPy-tutorial/blob/main/smallbaselineApp_aria.ipynb)
 
 
 
