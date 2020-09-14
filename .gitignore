@@ -19,6 +19,7 @@ JupyterDocs/*/mask
 JupyterDocs/*/unwrappedPhase
 JupyterDocs/*/user_bbox.shp
 JupyterDocs/*/user_bbox.json
+JupyterDocs/*/*.log
 
 JupyterDocs/ariaAOIassist/work/
 JupyterDocs/ariaMisclosure/TSsetup/
