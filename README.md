@@ -36,10 +36,17 @@ In addition,  download the ARIA-tools documentation repository:
 ```
 git clone https://github.com/aria-tools/ARIA-tools-docs.git
 ```
-
+### Python Jupyter dependencies
+```
+* py3X-jupyterlab
+```
 ------
 ## Installation
+Install jupyter into the conda environment with ARIA-tools installed
+`mamba install -c conda-forge jupyterlab` or `pip install jupyterlab`
+
 After downloading the ARIA-tools-docs repository and installation of the dependencies you can directly run the Jupyter notebooks.
+
 
 ------
 ## Jupyter Notebooks
