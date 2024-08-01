@@ -1,9 +1,9 @@
 # ARIA-tools-docs
 
 [![Language](https://img.shields.io/badge/python-3.5%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-GPL-yellow.svg)](https://github.com/aria-tools/ARIA-tools-docs/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/aria-tools/ARIA-tools-docs/blob/master/LICENSE)
 
-ARIA-tools-docs is an open source package in Python and Jupyter which contains the documentation for the [ARIA-tools repo](https://github.com/aria-tools/ARIA-tools). This software is open source under the terms of the GNU General Public License. Its development was funded under the NASA Sea-level Change Team (NSLCT) program and the Earth Surface and Interior (ESI) program.
+ARIA-tools-docs is an open source package in Python and Jupyter which contains the documentation for the [ARIA-tools repo](https://github.com/aria-tools/ARIA-tools). This software is open source under the terms of the [Apache 2.0 License](LICENSE). Its development was funded under the NASA Sea-level Change Team (NSLCT) program and the Earth Surface and Interior (ESI) program.
 
 THIS IS RESEARCH CODE PROVIDED TO YOU "AS IS" WITH NO WARRANTIES OF CORRECTNESS. USE AT YOUR OWN RISK.
 
@@ -36,10 +36,17 @@ In addition,  download the ARIA-tools documentation repository:
 ```
 git clone https://github.com/aria-tools/ARIA-tools-docs.git
 ```
-
+### Python Jupyter dependencies
+```
+* py3X-jupyterlab
+```
 ------
 ## Installation
+Install jupyter into the conda environment with ARIA-tools installed
+`mamba install -c conda-forge jupyterlab` or `pip install jupyterlab`
+
 After downloading the ARIA-tools-docs repository and installation of the dependencies you can directly run the Jupyter notebooks.
+
 
 ------
 ## Jupyter Notebooks
